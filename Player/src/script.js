@@ -15,8 +15,8 @@
         {
           musicname: "DefaultMusic(恋夢)",
           artist: "Suara",
-          cover: "http://ec2-54-172-235-15.compute-1.amazonaws.com/~Hanqk97/music_player/Player/img/%e6%81%8b%e5%a4%a2.jpg",
-          source: "http://ec2-54-172-235-15.compute-1.amazonaws.com/~Hanqk97/music_player/Player/mp3/%e6%81%8b%e5%a4%a2.mp3",
+          cover: "http://ec2-54-172-235-15.compute-1.amazonaws.com/~Hanqk97/Simple_Music_Player_JavaScript/Player/img/%e6%81%8b%e5%a4%a2.jpg",
+          source: "http://ec2-54-172-235-15.compute-1.amazonaws.com/~Hanqk97/Simple_Music_Player_JavaScript/Player/mp3/%e6%81%8b%e5%a4%a2.mp3",
           url: "https://www.youtube.com/watch?v=j6ZjVnvXE7Q",
           favorited: false
         }

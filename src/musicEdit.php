@@ -28,18 +28,6 @@
     $stmt->execute();
     $stmt->close();
 
-    //get this story's id to prepare for inserting link to links table
-    $stmt = $mysqli->prepare("SELECT musicid FROM music WHERE name = ?");
-    if(!$stmt){
-        printf("Query Prep Failed: %s\n", $mysqli->error);
-        exit;
-    }
-    $stmt -> bind_param('s',$name);
-    $stmt->execute();
-    $stmt->bind_result($story_id);
-    $stmt->fetch();
-    $stmt->close();
-
     $url = 'Dashboard.php';
     echo '<script>alert("Edit Success");location.href="'.$url.'"</script>';
     exit();
