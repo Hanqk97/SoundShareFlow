@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login Page</title>
+		<link rel="stylesheet" href="./css/login.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="loginForm">
+				<div class="formHeader">
+					<div class="comName">
+						<h3>Music Player</h3>
+						<p>Enjoying same music list with others!</p>
+					</div>
+				</div>
+                <br><br>
+				<form name = "input" action = "src/login.php" method="post">
+					<div class="items">
+						<label class="itemsTitle"><strong>Username</strong></label>
+						<input type="text" name="username" id="username" class="form-control" placeholder="Please Enter Your Username"/>
+					</div>
+					<div class="items">
+						<label class="itemsTitle"><strong>Password</strong></label>
+						<input type="text" name="password" id="password" class="form-control" placeholder="Please Enter Your Password" />
+					</div>
+					
+					<div class="form-submit">
+						<button type="submit">Login</button>
+					</div>
+				</form>
+			
+                <div class="form-submit">
+                    <button type="submit" onclick="window.location.href = 'src/registerPage.html'" class="rbtn">Register</button>
+                </div>  
+
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Music Add Page</title>
+		<link rel="stylesheet" href="../css/add.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="loginForm">
+				<div class="formHeader">
+					<div class="comName">
+						<h3>Add New Music</h3>
+					</div>
+				</div>
+                <form name = "input" action="musicAdd.php" method = "post">
+                    <div class="items">
+						<label class="itemsTitle"><strong>Musicname</strong></label>
+						<input type="text" class="form-control" name="name" id="name" placeholder="Please Enter Music Name (Only Letters)"/>
+					</div>
+					<div class="items">
+						<label class="itemsTitle"><strong>Artist</strong></label>
+						<input type="text" class="form-control" name="artist" id="artist" placeholder="Please Enter Artist" />
+					</div>
+                    <div class="items">
+						<label class="itemsTitle"><strong>Cover URL</strong></label>
+						<input type="text" class="form-control" name="cover" id="cover" placeholder="Please Enter Cover URL" />
+					</div>
+                    <div class="items">
+						<label class="itemsTitle"><strong>Source URL</strong></label>
+						<input type="text" class="form-control" name="source" id="source" placeholder="Please Enter Source URL" />
+					</div>
+                    <div class="items">
+						<label class="itemsTitle"><strong>MV URL</strong></label>
+						<input type="text" class="form-control" name="url" id="url" placeholder="Please Enter MV URL" />
+					</div>
+					
+					<div class="form-submit">
+						<button type="submit" id="addbutton">Add</button>
+					</div>
+                </form>
+
+				<div class="form-submit">
+                    <button type="submit" onclick="window.location.href = 'Dashboard.php'" class="rbtn">Cancel</button>
+                </div> 
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
