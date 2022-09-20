@@ -9,6 +9,12 @@ After add music, users can see whole playlist on their main page, and then they 
 ## API
 This API is used to connect database and player. Before playing, player will send rrequest to API to get a list of music information.
 
+Start API:
+```Bash
+cd api
+node app.js
+```
+
 ## DataBase Tables
  ```BASH
  CREATE TABLE `users` (
