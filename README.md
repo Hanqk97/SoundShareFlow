@@ -22,7 +22,7 @@ node app.js
   `username` tinytext NOT NULL,
   `password` tinytext NOT NULL,
   PRIMARY KEY (`userid`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8
 
 CREATE TABLE `music` (
   `musicid` int(10) unsigned NOT NULL AUTO_INCREMENT,
