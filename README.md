@@ -38,9 +38,3 @@ CREATE TABLE `music` (
   CONSTRAINT `employees_ibfk_1` FOREIGN KEY (`userid`) REFERENCES `users` (`userid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf
  ```
-
- ## Demo
- Test Account:
- Username & Password : hanqk
- Link:
- http://ec2-54-172-235-15.compute-1.amazonaws.com/~Hanqk97/Simple_Music_Player_JavaScript/index.html
