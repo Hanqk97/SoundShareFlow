@@ -1,4 +1,4 @@
-# Simple-Music-Player
+# Sound Share Flow
 
 **[Demo](http://ec2-18-222-37-47.us-east-2.compute.amazonaws.com/~Hanqi/Simple_Music_Player_JavaScript/index.html)**
 
