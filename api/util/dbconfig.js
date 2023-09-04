@@ -5,9 +5,9 @@ module.exports = {
     config: {
         host: 'localhost',
         port: '3306',
-        user: 'Hanqk97',
+        user: 'Hanqi',
         password: 'Chq@970713',
-        database: 'Music'
+        database: 'music_player'
     },
 
     //conncet database through connect pool

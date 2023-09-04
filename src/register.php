@@ -49,7 +49,7 @@
     $stmt->bind_param('ss',$username,$hash_password);
     $stmt->execute();
     $stmt->close();
-    $url = '../login.html';
+    $url = '../index.html';
     echo '<script>alert("Register Success！");location.href="'.$url.'"</script>';
 
 ?>

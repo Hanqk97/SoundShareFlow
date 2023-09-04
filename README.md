@@ -1,5 +1,28 @@
 # Simple-Music-Player
-This project consist of two parts: Music Player and API.
+
+**[Demo](http://ec2-18-222-37-47.us-east-2.compute.amazonaws.com/~Hanqi/Simple_Music_Player_JavaScript/index.html)**
+
+**Test Account**
+
+**username: test**
+**password: test**
+
+My goal is to create a private web music player that can be shared with friends, allowing us to collectively build and enjoy a playlist of our favorite songs. To achieve this, I've streamlined the music player code by referencing online guides and eliminating unnecessary complexities.
+
+To facilitate sharing with friends, I've utilized Node.js to develop an API that interacts with a MySQL database, storing essential account data (usernames and hashed passwords) and music-related information (song names, artists, covers, source URLs, MV URLs, and favorites).
+
+I hope this project enhances your music-sharing experience with friends and brings joy to your collective playlist curation journey.
+
+
+## Dependency Installation
+
+```bash
+sudo npm install -g express-generator
+
+sudo npm install nodemon -g
+
+sudo npm install -g pm2
+```
 
 ## Music Player
 Before using player, users need to register their own account. This account will be used allow users add or edit music on the common music playlist. Each new music should include name(only accept letter, other languages will display messy code), artist, cover url, source url(mp3 prefer) and mv url.
@@ -12,7 +35,7 @@ This API is used to connect database and player. Before playing, player will sen
 Start API:
 ```Bash
 cd api
-node app.js
+node app.js // or pm2 start
 ```
 
 ## DataBase Tables

@@ -15,9 +15,9 @@
         {
           musicname: "DefaultMusic(恋夢)",
           artist: "Suara",
-          cover: "http://ec2-54-172-235-15.compute-1.amazonaws.com/~Hanqk97/Simple_Music_Player_JavaScript/Player/img/%e6%81%8b%e5%a4%a2.jpg",
-          source: "http://ec2-54-172-235-15.compute-1.amazonaws.com/~Hanqk97/Simple_Music_Player_JavaScript/Player/mp3/%e6%81%8b%e5%a4%a2.mp3",
-          url: "https://www.youtube.com/watch?v=j6ZjVnvXE7Q",
+          cover: "http://ec2-18-222-37-47.us-east-2.compute.amazonaws.com/~Hanqi/Simple_Music_Player_JavaScript/Player/img/%e6%81%8b%e5%a4%a2.jpg",
+          source: "http://ec2-18-222-37-47.us-east-2.compute.amazonaws.com/~Hanqi/Simple_Music_Player_JavaScript/Player/mp3/%e6%81%8b%e5%a4%a2.mp3",
+          url: "https://www.youtube.com/watch?v=ing3TMvakKk",
           favorited: false
         }
       ],
@@ -29,7 +29,7 @@
   methods: {
     getList(){
       var that = this;
-      axios.get("http://ec2-54-172-235-15.compute-1.amazonaws.com:3000/").then(
+      axios.get("http://ec2-18-222-37-47.us-east-2.compute.amazonaws.com:3000/").then(
         function(response) {
           console.log(response.data.list[0]);
           that.tracks = response.data.list;

@@ -1,5 +1,5 @@
 <?php
-    $mysqli = new mysqli('localhost','Hanqk97','Chq@970713','Music');
+    $mysqli = new mysqli('localhost','Hanqi','Chq@970713','music_player');
     
     //start database 
 

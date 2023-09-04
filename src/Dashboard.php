@@ -22,7 +22,7 @@
 
 			
 				<?PHP 
-				$con = mysqli_connect("localhost","Hanqk97","Chq@970713","Music");
+				$con = mysqli_connect('localhost','Hanqi','Chq@970713','music_player');
 				// $con->query("set names utf8");
 				if(!$con){
 					die(mysql_error());
